@@ -164,7 +164,7 @@ export default function CTA() {
                 style={{ backgroundColor: 'rgba(255,255,255,0.1)' }}
               >
                 <Mail className="w-5 h-5 text-white/60" />
-                <span className="text-white/80">demo@madar.finance</span>
+                <span className="text-white/80">info@madar.finance</span>
               </div>
               <p className="text-white/60 text-sm">
                 Contact us for a fee quote depending on your needs.

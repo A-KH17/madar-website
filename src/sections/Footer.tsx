@@ -59,12 +59,12 @@ export default function Footer() {
 
           {/* Contact */}
           <a
-            href="mailto:demo@madar.finance"
+            href="mailto:info@madar.finance"
             className="flex items-center gap-2 transition-colors duration-300 hover:opacity-80"
             style={{ color: '#001e40' }}
           >
             <Mail className="w-4 h-4" />
-            <span className="text-sm">demo@madar.finance</span>
+            <span className="text-sm">info@madar.finance</span>
           </a>
 
           {/* Copyright */}
