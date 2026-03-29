@@ -31,6 +31,7 @@ function App() {
 
   return (
     <main className="min-h-screen">
+      <LanguageSwitcher />
       <Hero />
       <Problem />
       <Solution />
@@ -50,6 +51,24 @@ function App() {
       <CTA />
       <Footer />
     </main>
+  );
+}
+
+function LanguageSwitcher() {
+  return (
+    <div className="fixed top-4 right-4 z-50">
+      <a
+        href="/ar"
+        className="px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105"
+        style={{
+          backgroundColor: 'rgba(255, 255, 255, 0.9)',
+          color: '#001e40',
+          boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
+        }}
+      >
+        العربية
+      </a>
+    </div>
   );
 }
 
