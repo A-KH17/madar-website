@@ -6,7 +6,7 @@
   <text x="40" y="40" fill="white" font-size="13" font-weight="bold" font-family="Manrope, sans-serif">Cash Forecast (30 Days)</text>
   <text x="40" y="58" fill="#fed488" font-size="10" font-family="Manrope, sans-serif">4 weeks ahead</text>
   
-  <-- Status indicator -->
+  <!-- Status indicator -->
   <rect x="310" y="32" width="55" height="26" rx="4" fill="#e8f5e9"/>
   <circle cx="325" cy="45" r="5" fill="#4caf50"/>
   <text x="345" y="49" fill="#2e7d32" font-size="9" font-family="Manrope, sans-serif">Safe</text>

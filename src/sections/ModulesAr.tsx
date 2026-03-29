@@ -194,20 +194,20 @@ export default function ModulesAr() {
           </p>
         </div>
 
-        <div className="flex gap-4 mb-6 flex-row-reverse">
-          <button
-            onClick={handleNext}
-            className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105"
-            style={{ backgroundColor: '#f4f4f2', color: '#001e40' }}
-            aria-label="الوحدة التالية"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
+        <div className="flex gap-4 mb-6">
           <button
             onClick={handlePrev}
             className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105"
             style={{ backgroundColor: '#f4f4f2', color: '#001e40' }}
             aria-label="الوحدة السابقة"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
+          <button
+            onClick={handleNext}
+            className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105"
+            style={{ backgroundColor: '#f4f4f2', color: '#001e40' }}
+            aria-label="الوحدة التالية"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
