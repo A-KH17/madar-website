@@ -136,7 +136,7 @@ export default function SolutionAr() {
           <h2
             ref={headlineRef}
             className="display-md font-bold opacity-0 leading-tight"
-            style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+            style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
           >
             ليست بديلاً للأدوات الحالية — بل المكان الذي تلتقي فيها.
           </h2>
@@ -188,7 +188,7 @@ export default function SolutionAr() {
 
               <img
                 src="/images/madar-logo-white.png"
-                alt="MADAR"
+                alt="مدار"
                 className="w-20 h-20 md:w-24 md:h-24 object-contain relative z-10"
               />
             </div>
@@ -211,7 +211,7 @@ export default function SolutionAr() {
                 </div>
                 <span
                   className="text-sm font-medium"
-                  style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                  style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                 >
                   الحسابات البنكية
                 </span>
@@ -234,7 +234,7 @@ export default function SolutionAr() {
                 </div>
                 <span
                   className="text-sm font-medium"
-                  style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                  style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                 >
                   الفواتير
                 </span>
@@ -257,7 +257,7 @@ export default function SolutionAr() {
                 </div>
                 <span
                   className="text-sm font-medium"
-                  style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                  style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                 >
                   المحاسبة
                 </span>
@@ -280,7 +280,7 @@ export default function SolutionAr() {
                 </div>
                 <span
                   className="text-sm font-medium"
-                  style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                  style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                 >
                   المدفوعات
                 </span>
@@ -293,7 +293,7 @@ export default function SolutionAr() {
           <div className="text-center p-6">
             <h4
               className="font-semibold mb-2"
-              style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+              style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
             >
               ما يربطه
             </h4>
@@ -304,7 +304,7 @@ export default function SolutionAr() {
           <div className="text-center p-6">
             <h4
               className="font-semibold mb-2"
-              style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+              style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
             >
               ما يجيب عليه
             </h4>
@@ -315,7 +315,7 @@ export default function SolutionAr() {
           <div className="text-center p-6">
             <h4
               className="font-semibold mb-2"
-              style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+              style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
             >
               ما يستبدله
             </h4>

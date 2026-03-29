@@ -75,16 +75,16 @@ export default function HeroAr() {
 
           <div
             ref={brandRef}
-            className="text-4xl md:text-6xl font-bold text-white mb-6 opacity-0 tracking-wider"
-            style={{ fontFamily: 'Manrope, sans-serif' }}
+            className="text-5xl md:text-7xl font-black text-white mb-6 opacity-0 tracking-wider"
+            style={{ fontFamily: 'Tajawal, sans-serif' }}
           >
-            MADAR
+            مدار
           </div>
 
           <h1
             ref={headlineRef}
             className="text-2xl md:text-4xl font-bold text-white mb-6 opacity-0 leading-tight"
-            style={{ fontFamily: 'Manrope, sans-serif' }}
+            style={{ fontFamily: 'Tajawal, sans-serif' }}
           >
             منصة التحكم بالتدفقات النقدية للمنشآت السعودية
           </h1>
@@ -92,6 +92,7 @@ export default function HeroAr() {
           <p
             ref={subheadlineRef}
             className="text-xl md:text-2xl text-white/80 mb-10 opacity-0"
+            style={{ fontFamily: 'Tajawal, sans-serif' }}
           >
             النقد. التحصيل. الالتزامات. التحكم.
           </p>
@@ -100,6 +101,7 @@ export default function HeroAr() {
             ref={ctaRef}
             onClick={() => setIsFormOpen(true)}
             className="btn-primary text-lg px-8 py-4 opacity-0"
+            style={{ fontFamily: 'Tajawal, sans-serif' }}
           >
             طلب عرض تجريبي
           </button>
@@ -107,10 +109,10 @@ export default function HeroAr() {
 
         <div
           ref={scrollIndicatorRef}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0"
+          className="absolute bottom-8 right-1/2 translate-x-1/2 opacity-0"
         >
           <div className="scroll-indicator flex flex-col items-center text-white/60">
-            <span className="text-sm mb-2">مرر للاستكشاف</span>
+            <span className="text-sm mb-2" style={{ fontFamily: 'Tajawal, sans-serif' }}>مرر للاستكشاف</span>
             <ChevronDown className="w-6 h-6" />
           </div>
         </div>

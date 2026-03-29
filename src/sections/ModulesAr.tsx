@@ -8,32 +8,37 @@ gsap.registerPlugin(ScrollTrigger);
 const modules = [
   {
     image: '/images/module-cash.svg',
-    title: 'Cash Dashboard',
-    description: 'Unified view of all bank accounts with real-time balances. See your total cash position at a glance.',
+    title: 'لوحة التحكم النقدية',
+    titleEn: 'Cash Dashboard',
+    description: 'رؤية موحدة لجميع الحسابات البنكية مع أرصدة فورية. اطلع على موقعك النقدي الكلي بلمحة.',
   },
   {
     image: '/images/module-invoices.svg',
-    title: 'Overdue Invoice Tracking',
-    description: 'Systematic tracking of overdue invoices with aging analysis. Know exactly who owes what and for how long.',
+    title: 'متابعة الفواتير المتأخرة',
+    titleEn: 'Overdue Invoice Tracking',
+    description: 'تتبع منهجي للفواتير المتأخرة مع تحليل التقادم. اعرف بالضبط من يدفع ومقداره ومنذ متى.',
   },
   {
     image: '/images/module-collections.svg',
-    title: 'Collections Workflow',
-    description: 'Priority queue for collections with assigned follow-ups. Focus on the highest-impact accounts first.',
+    title: 'سير عمل التحصيل',
+    titleEn: 'Collections Workflow',
+    description: 'قائمة أولويات للتحصيل مع متابعات مخصصة. ركز على الحسابات الأكثر تأثيراً أولاً.',
   },
   {
     image: '/images/module-obligations.svg',
-    title: 'Upcoming Obligations',
-    description: 'Calendar view of all upcoming payments and obligations. Never miss a deadline.',
+    title: 'الالتزامات القادمة',
+    titleEn: 'Upcoming Obligations',
+    description: 'عرض تقويمي لجميع المدفوعات والالتزامات القادمة. لا تفوّت موعداً نهائياً.',
   },
   {
     image: '/images/module-forecast.svg',
-    title: 'Simple Forecast',
-    description: '30-day cash forecast based on expected inflows and outflows. Predict shortfalls before they happen.',
+    title: 'التوقع النقدي',
+    titleEn: 'Simple Forecast',
+    description: 'توقع نقدي لـ ٣٠ يوماً بناءً على التدفقات الداخلة والخارجة المتوقعة. توقع العجز قبل حدوثه.',
   },
 ];
 
-export default function Modules() {
+export default function ModulesAr() {
   const sectionRef = useRef<HTMLElement>(null);
   const labelRef = useRef<HTMLParagraphElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
@@ -166,50 +171,52 @@ export default function Modules() {
       ref={sectionRef}
       className="section-padding"
       style={{ backgroundColor: '#f9f9f7' }}
+      dir="rtl"
     >
       <div className="container">
-        <div className="max-w-2xl mb-12">
+        <div className="max-w-2xl mb-12 text-right">
           <p ref={labelRef} className="section-label opacity-0">
-            Product Modules
+            وحدات المنتج
           </p>
           <h2
             ref={headlineRef}
-            className="display-md font-bold mb-4 opacity-0"
-            style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+            className="display-md font-bold mb-4 opacity-0 leading-tight"
+            style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
           >
-            Five Modules. One Workflow.
+            خمس وحدات. سير عمل واحد.
           </h2>
           <p
             ref={descRef}
             className="text-lg opacity-0"
             style={{ color: '#1a1c1b', opacity: 0.8 }}
           >
-            The MVP solves one problem cluster: short-term cash visibility and overdue invoice control.
+            يحل الإصدار الأول مجموعة مشكلة واحدة: الرؤية النقدية قصيرة المدى والتحكم بالفواتير المتأخرة.
           </p>
         </div>
 
-        <div className="flex gap-4 mb-6">
-          <button
-            onClick={handlePrev}
-            className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105"
-            style={{ backgroundColor: '#f4f4f2', color: '#001e40' }}
-            aria-label="Previous module"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
+        <div className="flex gap-4 mb-6 flex-row-reverse">
           <button
             onClick={handleNext}
             className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105"
             style={{ backgroundColor: '#f4f4f2', color: '#001e40' }}
-            aria-label="Next module"
+            aria-label="الوحدة التالية"
           >
             <ChevronRight className="w-6 h-6" />
+          </button>
+          <button
+            onClick={handlePrev}
+            className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105"
+            style={{ backgroundColor: '#f4f4f2', color: '#001e40' }}
+            aria-label="الوحدة السابقة"
+          >
+            <ChevronLeft className="w-6 h-6" />
           </button>
         </div>
 
         <div
           ref={carouselRef}
           className="carousel-container opacity-0"
+          dir="rtl"
         >
           {modules.map((module, index) => (
             <div
@@ -228,13 +235,16 @@ export default function Modules() {
                   alt={module.title}
                   className="w-full h-48 md:h-56 object-cover"
                 />
-                <div className="p-6">
+                <div className="p-6 text-right">
                   <h3
                     className="text-xl font-bold mb-2"
-                    style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                    style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                   >
                     {module.title}
                   </h3>
+                  <p className="text-xs mb-2" style={{ color: '#775a19' }}>
+                    {module.titleEn}
+                  </p>
                   <p
                     className="text-sm"
                     style={{ color: '#1a1c1b', opacity: 0.7, lineHeight: 1.6 }}
@@ -257,7 +267,7 @@ export default function Modules() {
                 backgroundColor: activeIndex === index ? '#001e40' : '#c3c6d1',
                 transform: activeIndex === index ? 'scale(1.5)' : 'scale(1)',
               }}
-              aria-label={`Go to module ${index + 1}`}
+              aria-label={`الانتقال للوحدة ${index + 1}`}
             />
           ))}
         </div>

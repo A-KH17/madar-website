@@ -121,16 +121,16 @@ export default function CTAAr() {
             <h2
               ref={headlineRef}
               className="display-md font-bold text-white mb-6 opacity-0 leading-tight"
-              style={{ fontFamily: 'Manrope, sans-serif' }}
+              style={{ fontFamily: 'Tajawal, sans-serif' }}
             >
-              شاهد MADAR على أرض الواقع
+              شاهد مدار على أرض الواقع
             </h2>
 
             <p
               ref={descRef}
               className="text-xl text-white/80 mb-10 opacity-0"
             >
-              اطلب عرضاً تجريبياً مخصصاً لترى كيف يمكن لـ MADAR أن يمنحك التحكم في تدفقاتك النقدية.
+              اطلب عرضاً تجريبياً مخصصاً لترى كيف يمكن لـ مدار أن يمنحك التحكم في تدفقاتك النقدية.
             </p>
 
             <button

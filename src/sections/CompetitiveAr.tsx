@@ -123,9 +123,9 @@ export default function CompetitiveAr() {
           <h2
             ref={headlineRef}
             className="display-md font-bold opacity-0 leading-tight"
-            style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+            style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
           >
-            MADAR يقع في الفجوة: فوق البنك، فوق طاقم المحاسبة.
+            مدار يقع في الفجوة: فوق البنك، فوق طاقم المحاسبة.
           </h2>
         </div>
 
@@ -148,7 +148,7 @@ export default function CompetitiveAr() {
                 </div>
                 <h3
                   className="font-semibold text-sm text-right flex-1"
-                  style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                  style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                 >
                   {competitor.title}
                 </h3>
@@ -200,12 +200,12 @@ export default function CompetitiveAr() {
           >
             <img
               src="/images/madar-logo-white.png"
-              alt="MADAR"
+              alt="مدار"
               className="h-12 mx-auto mb-4"
             />
             <h3
               className="font-bold text-white mb-2"
-              style={{ fontFamily: 'Manrope, sans-serif' }}
+              style={{ fontFamily: 'Tajawal, sans-serif' }}
             >
               طبقة التحكم
             </h3>

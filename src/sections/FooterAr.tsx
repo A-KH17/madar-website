@@ -46,14 +46,14 @@ export default function FooterAr() {
           <div className="flex items-center gap-3 flex-row-reverse">
             <img
               src="/images/madar-logo-dark.png"
-              alt="MADAR"
+              alt="مدار"
               className="h-8"
             />
             <span
               className="font-semibold text-lg"
-              style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+              style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
             >
-              MADAR
+              مدار
             </span>
           </div>
 
@@ -70,7 +70,7 @@ export default function FooterAr() {
             className="text-sm"
             style={{ color: '#1a1c1b', opacity: 0.6 }}
           >
-            © 2026 MADAR. جميع الحقوق محفوظة.
+            © 2026 مدار. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>

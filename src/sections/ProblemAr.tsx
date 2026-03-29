@@ -147,14 +147,14 @@ export default function ProblemAr() {
             <h2
               ref={headlineRef}
               className="display-md font-bold mb-6 opacity-0 leading-tight"
-              style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+              style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
             >
               المنشآت السعودية لا تعاني من قلة الأعمال. تعاني من قلة التحكم.
             </h2>
             <p
               ref={descRef}
               className="text-lg opacity-0"
-              style={{ color: '#1a1c1b', lineHeight: 1.7 }}
+              style={{ color: '#1a1c1b', lineHeight: 1.7, fontFamily: 'Tajawal, sans-serif' }}
             >
               المنشآت الصغيرة والمتوسطة في السعودية رقمية بشكل متزايد لكنها غير منسقة. لديها الأدوات لكنها تفتقر لطبقة التنسيق. البيانات موجودة. التنسيق مفقود.
             </p>
@@ -177,7 +177,7 @@ export default function ProblemAr() {
                   <div className="flex-1 text-right">
                     <h3
                       className="font-semibold text-lg mb-1"
-                      style={{ color: '#001e40', fontFamily: 'Manrope, sans-serif' }}
+                      style={{ color: '#001e40', fontFamily: 'Tajawal, sans-serif' }}
                     >
                       {problem.title}
                     </h3>
