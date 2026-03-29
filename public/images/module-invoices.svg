@@ -3,36 +3,36 @@
   
   <!-- Aging Buckets Header -->
   <rect x="20" y="20" width="360" height="50" rx="8" fill="#001e40"/>
-  <text x="40" y="40" fill="white" font-size="12" font-weight="bold" font-family="Tajawal, sans-serif">الفواتير المتأخرة</text>
-  <text x="40" y="58" fill="#fed488" font-size="10" font-family="Tajawal, sans-serif">١٢ فاتورة | ٤٥٠K ر.س</text>
-  <text x="360" y="50" fill="white" font-size="20" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="end">٤٥٠K</text>
+  <text x="40" y="40" fill="white" font-size="12" font-weight="bold" font-family="Manrope, sans-serif">Overdue Invoices</text>
+  <text x="40" y="58" fill="#fed488" font-size="10" font-family="Manrope, sans-serif">12 invoices | SAR 450K</text>
+  <text x="360" y="50" fill="white" font-size="20" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="end">450K</text>
   
   <!-- 30 Days -->
   <rect x="20" y="85" width="100" height="70" rx="6" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
-  <text x="70" y="110" fill="#2e7d32" font-size="11" font-family="Tajawal, sans-serif" text-anchor="middle">٣٠ يوم</text>
-  <text x="70" y="135" fill="#2e7d32" font-size="16" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">١٢٠K</text>
-  <text x="70" y="148" fill="#4caf50" font-size="9" font-family="Tajawal, sans-serif" text-anchor="middle">٤ فواتير</text>
+  <text x="70" y="110" fill="#2e7d32" font-size="11" font-family="Manrope, sans-serif" text-anchor="middle">30 Days</text>
+  <text x="70" y="135" fill="#2e7d32" font-size="16" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">120K</text>
+  <text x="70" y="148" fill="#4caf50" font-size="9" font-family="Manrope, sans-serif" text-anchor="middle">4 invoices</text>
   
   <!-- 60 Days -->
   <rect x="130" y="85" width="100" height="70" rx="6" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
-  <text x="180" y="110" fill="#ef6c00" font-size="11" font-family="Tajawal, sans-serif" text-anchor="middle">٦٠ يوم</text>
-  <text x="180" y="135" fill="#ef6c00" font-size="16" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">١٨٠K</text>
-  <text x="180" y="148" fill="#ff9800" font-size="9" font-family="Tajawal, sans-serif" text-anchor="middle">٥ فواتير</text>
+  <text x="180" y="110" fill="#ef6c00" font-size="11" font-family="Manrope, sans-serif" text-anchor="middle">60 Days</text>
+  <text x="180" y="135" fill="#ef6c00" font-size="16" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">180K</text>
+  <text x="180" y="148" fill="#ff9800" font-size="9" font-family="Manrope, sans-serif" text-anchor="middle">5 invoices</text>
   
   <!-- 90+ Days -->
   <rect x="240" y="85" width="100" height="70" rx="6" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
-  <text x="290" y="110" fill="#c62828" font-size="11" font-family="Tajawal, sans-serif" text-anchor="middle">٩٠+ يوم</text>
-  <text x="290" y="135" fill="#c62828" font-size="16" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">١٥٠K</text>
-  <text x="290" y="148" fill="#f44336" font-size="9" font-family="Tajawal, sans-serif" text-anchor="middle">٣ فواتير</text>
+  <text x="290" y="110" fill="#c62828" font-size="11" font-family="Manrope, sans-serif" text-anchor="middle">90+ Days</text>
+  <text x="290" y="135" fill="#c62828" font-size="16" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">150K</text>
+  <text x="290" y="148" fill="#f44336" font-size="9" font-family="Manrope, sans-serif" text-anchor="middle">3 invoices</text>
   
   <!-- Invoice List Preview -->
   <rect x="20" y="170" width="360" height="65" rx="6" fill="white" stroke="#e8e8e6" stroke-width="1"/>
-  <text x="40" y="190" fill="#001e40" font-size="11" font-weight="600" font-family="Tajawal, sans-serif">شركة الأصيل للمقاولات</text>
+  <text x="40" y="190" fill="#001e40" font-size="11" font-weight="600" font-family="Manrope, sans-serif">Al-Aseel Contracting Co.</text>
   <rect x="320" y="182" width="45" height="18" rx="4" fill="#ffebee"/>
-  <text x="342" y="195" fill="#c62828" font-size="9" font-family="Tajawal, sans-serif" text-anchor="middle">٩٥ يوم</text>
+  <text x="342" y="195" fill="#c62828" font-size="9" font-family="Manrope, sans-serif" text-anchor="middle">95 days</text>
   
-  <text x="40" y="210" fill="#775a19" font-size="10" font-family="Tajawal, sans-serif">فاتورة #INV-2024-0034</text>
-  <text x="360" y="210" fill="#001e40" font-size="13" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="end">٨٥K</text>
+  <text x="40" y="210" fill="#775a19" font-size="10" font-family="Manrope, sans-serif">Invoice #INV-2024-0034</text>
+  <text x="360" y="210" fill="#001e40" font-size="13" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="end">85K</text>
   
-  <text x="40" y="225" fill="#1a1c1b" font-size="9" opacity="0.6" font-family="Tajawal, sans-serif">٢ يناير ٢٠٢٤</text>
+  <text x="40" y="225" fill="#1a1c1b" font-size="9" opacity="0.6" font-family="Manrope, sans-serif">Jan 2, 2024</text>
 </svg>

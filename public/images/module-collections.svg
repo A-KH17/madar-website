@@ -3,36 +3,36 @@
   
   <!-- Header -->
   <rect x="20" y="20" width="360" height="45" rx="8" fill="#001e40"/>
-  <text x="40" y="40" fill="white" font-size="13" font-weight="bold" font-family="Tajawal, sans-serif">قائمة المتابعة</text>
-  <text x="40" y="55" fill="#fed488" font-size="10" font-family="Tajawal, sans-serif">٤ فواتير تتطلب متابعة</text>
+  <text x="40" y="40" fill="white" font-size="13" font-weight="bold" font-family="Manrope, sans-serif">Follow-up Queue</text>
+  <text x="40" y="55" fill="#fed488" font-size="10" font-family="Manrope, sans-serif">4 invoices need follow-up</text>
   <rect x="330" y="30" width="40" height="25" rx="4" fill="#fed488"/>
-  <text x="350" y="47" fill="#001e40" font-size="12" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">٤</text>
+  <text x="350" y="47" fill="#001e40" font-size="12" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">4</text>
   
   <!-- Priority Items -->
   <!-- Item 1 - High Priority -->
   <rect x="20" y="80" width="360" height="55" rx="6" fill="#ffebee" stroke="#f44336" stroke-width="1"/>
   <circle cx="45" cy="107" r="12" fill="#f44336"/>
-  <text x="45" y="112" fill="white" font-size="10" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">١</text>
+  <text x="45" y="112" fill="white" font-size="10" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">1</text>
   
-  <text x="70" y="100" fill="#001e40" font-size="12" font-weight="600" font-family="Tajawal, sans-serif">مؤسسة التطوير المعماري</text>
-  <text x="70" y="118" fill="#c62828" font-size="10" font-family="Tajawal, sans-serif">متأخر ٩٥ يوم | آخر متابعة: منذ أسبوع</text>
+  <text x="70" y="100" fill="#001e40" font-size="12" font-weight="600" font-family="Manrope, sans-serif">ArchiDev Development Est.</text>
+  <text x="70" y="118" fill="#c62828" font-size="10" font-family="Manrope, sans-serif">95 days overdue | Last: 1 week ago</text>
   
   <rect x="320" y="95" width="50" height="24" rx="4" fill="white" stroke="#25d366" stroke-width="1"/>
-  <text x="345" y="111" fill="#25d366" font-size="10" font-family="Tajawal, sans-serif" text-anchor="middle">واتساب</text>
+  <text x="345" y="111" fill="#25d366" font-size="10" font-family="Manrope, sans-serif" text-anchor="middle">WhatsApp</text>
   
   <!-- Item 2 -->
   <rect x="20" y="145" width="360" height="40" rx="6" fill="white" stroke="#e8e8e6" stroke-width="1"/>
   <circle cx="45" cy="165" r="12" fill="#ff9800"/>
-  <text x="45" y="170" fill="white" font-size="10" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">٢</text>
+  <text x="45" y="170" fill="white" font-size="10" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">2</text>
   
-  <text x="70" y="162" fill="#001e40" font-size="12" font-weight="600" font-family="Tajawal, sans-serif">شركة البناء الحديث</text>
-  <text x="280" y="162" fill="#775a19" font-size="11" font-family="Tajawal, sans-serif">٦٠ يوم | ١٢٠K</text>
+  <text x="70" y="162" fill="#001e40" font-size="12" font-weight="600" font-family="Manrope, sans-serif">Modern Construction Co.</text>
+  <text x="280" y="162" fill="#775a19" font-size="11" font-family="Manrope, sans-serif">60 days | 120K</text>
   
   <!-- Item 3 -->
   <rect x="20" y="195" width="360" height="40" rx="6" fill="white" stroke="#e8e8e6" stroke-width="1"/>
   <circle cx="45" cy="215" r="12" fill="#c3c6d1"/>
-  <text x="45" y="220" fill="white" font-size="10" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="middle">٣</text>
+  <text x="45" y="220" fill="white" font-size="10" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="middle">3</text>
   
-  <text x="70" y="212" fill="#001e40" font-size="12" font-weight="600" font-family="Tajawal, sans-serif">مؤسسة الإمداد التجاري</text>
-  <text x="280" y="212" fill="#775a19" font-size="11" font-family="Tajawal, sans-serif">٤٥ يوم | ٨٥K</text>
+  <text x="70" y="212" fill="#001e40" font-size="12" font-weight="600" font-family="Manrope, sans-serif">Al-Imdad Trading Est.</text>
+  <text x="280" y="212" fill="#775a19" font-size="11" font-family="Manrope, sans-serif">45 days | 85K</text>
 </svg>

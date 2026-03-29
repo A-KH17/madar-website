@@ -2,29 +2,29 @@
   <rect width="400" height="250" fill="#f9f9f7"/>
   <!-- Header -->
   <rect x="20" y="20" width="360" height="40" rx="8" fill="#001e40"/>
-  <text x="40" y="47" fill="white" font-size="14" font-weight="bold" font-family="Tajawal, sans-serif">المركز النقدي</text>
-  <text x="340" y="47" fill="#fed488" font-size="18" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="end">١.٩٣M ر.س</text>
+  <text x="40" y="47" fill="white" font-size="14" font-weight="bold" font-family="Manrope, sans-serif">Cash Position</text>
+  <text x="340" y="47" fill="#fed488" font-size="18" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="end">SAR 1.93M</text>
   
   <!-- Bank 1 -->
   <rect x="20" y="75" width="360" height="50" rx="8" fill="white" stroke="#e8e8e6" stroke-width="1"/>
   <circle cx="45" cy="100" r="15" fill="#f4f4f2"/>
   <rect x="38" y="94" width="14" height="12" rx="2" fill="#775a19"/>
-  <text x="70" y="96" fill="#001e40" font-size="12" font-weight="600" font-family="Tajawal, sans-serif">البنك الأهلي</text>
-  <text x="70" y="112" fill="#775a19" font-size="11" font-family="Tajawal, sans-serif">•••• 4821</text>
-  <text x="360" y="105" fill="#001e40" font-size="14" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="end">٨٥٠K</text>
+  <text x="70" y="96" fill="#001e40" font-size="12" font-weight="600" font-family="Manrope, sans-serif">AlAhli Bank</text>
+  <text x="70" y="112" fill="#775a19" font-size="11" font-family="Manrope, sans-serif">•••• 4821</text>
+  <text x="360" y="105" fill="#001e40" font-size="14" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="end">850K</text>
   
   <!-- Bank 2 -->
   <rect x="20" y="135" width="360" height="50" rx="8" fill="white" stroke="#e8e8e6" stroke-width="1"/>
   <circle cx="45" cy="160" r="15" fill="#f4f4f2"/>
   <rect x="38" y="154" width="14" height="12" rx="2" fill="#001e40"/>
-  <text x="70" y="156" fill="#001e40" font-size="12" font-weight="600" font-family="Tajawal, sans-serif">مصرف الراجحي</text>
-  <text x="70" y="172" fill="#775a19" font-size="11" font-family="Tajawal, sans-serif">•••• 9153</text>
-  <text x="360" y="165" fill="#001e40" font-size="14" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="end">٦٨٠K</text>
+  <text x="70" y="156" fill="#001e40" font-size="12" font-weight="600" font-family="Manrope, sans-serif">AlRajhi Bank</text>
+  <text x="70" y="172" fill="#775a19" font-size="11" font-family="Manrope, sans-serif">•••• 9153</text>
+  <text x="360" y="165" fill="#001e40" font-size="14" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="end">680K</text>
   
   <!-- Bank 3 -->
   <rect x="20" y="195" width="360" height="40" rx="8" fill="white" stroke="#e8e8e6" stroke-width="1"/>
   <circle cx="45" cy="215" r="15" fill="#f4f4f2"/>
   <rect x="38" y="209" width="14" height="12" rx="2" fill="#c3c6d1"/>
-  <text x="70" y="212" fill="#001e40" font-size="12" font-weight="600" font-family="Tajawal, sans-serif">ساب</text>
-  <text x="360" y="220" fill="#001e40" font-size="14" font-weight="bold" font-family="Tajawal, sans-serif" text-anchor="end">٤٠٠K</text>
+  <text x="70" y="212" fill="#001e40" font-size="12" font-weight="600" font-family="Manrope, sans-serif">SAB</text>
+  <text x="360" y="220" fill="#001e40" font-size="14" font-weight="bold" font-family="Manrope, sans-serif" text-anchor="end">400K</text>
 </svg>

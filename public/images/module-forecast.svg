@@ -3,21 +3,21 @@
   
   <!-- Header -->
   <rect x="20" y="20" width="360" height="50" rx="8" fill="#001e40"/>
-  <text x="40" y="40" fill="white" font-size="13" font-weight="bold" font-family="Tajawal, sans-serif">التوقع النقدي (٣٠ يوم)</text>
-  <text x="40" y="58" fill="#fed488" font-size="10" font-family="Tajawal, sans-serif">٤ أسابيع مستقبلية</text>
+  <text x="40" y="40" fill="white" font-size="13" font-weight="bold" font-family="Manrope, sans-serif">Cash Forecast (30 Days)</text>
+  <text x="40" y="58" fill="#fed488" font-size="10" font-family="Manrope, sans-serif">4 weeks ahead</text>
   
   <-- Status indicator -->
   <rect x="310" y="32" width="55" height="26" rx="4" fill="#e8f5e9"/>
   <circle cx="325" cy="45" r="5" fill="#4caf50"/>
-  <text x="345" y="49" fill="#2e7d32" font-size="9" font-family="Tajawal, sans-serif">آمن</text>
+  <text x="345" y="49" fill="#2e7d32" font-size="9" font-family="Manrope, sans-serif">Safe</text>
   
   <!-- Chart Area -->
   <rect x="20" y="85" width="360" height="145" rx="6" fill="white" stroke="#e8e8e6" stroke-width="1"/>
   
   <!-- Y-axis labels -->
-  <text x="35" y="110" fill="#775a19" font-size="9" font-family="Tajawal, sans-serif">+٢M</text>
-  <text x="35" y="145" fill="#775a19" font-size="9" font-family="Tajawal, sans-serif">+١M</text>
-  <text x="35" y="180" fill="#775a19" font-size="9" font-family="Tajawal, sans-serif">٠</text>
+  <text x="35" y="110" fill="#775a19" font-size="9" font-family="Manrope, sans-serif">+2M</text>
+  <text x="35" y="145" fill="#775a19" font-size="9" font-family="Manrope, sans-serif">+1M</text>
+  <text x="35" y="180" fill="#775a19" font-size="9" font-family="Manrope, sans-serif">0</text>
   
   <!-- Grid lines -->
   <line x1="60" y1="105" x2="370" y2="105" stroke="#f4f4f2" stroke-width="1"/>
@@ -38,16 +38,16 @@
   <circle cx="370" cy="125" r="6" fill="#001e40"/>
   
   <!-- Week labels -->
-  <text x="60" y="225" fill="#1a1c1b" font-size="10" font-family="Tajawal, sans-serif" text-anchor="middle">الأسبوع ١</text>
-  <text x="137" y="225" fill="#1a1c1b" font-size="10" font-family="Tajawal, sans-serif" text-anchor="middle">الأسبوع ٢</text>
-  <text x="215" y="225" fill="#1a1c1b" font-size="10" font-family="Tajawal, sans-serif" text-anchor="middle">الأسبوع ٣</text>
-  <text x="292" y="225" fill="#1a1c1b" font-size="10" font-family="Tajawal, sans-serif" text-anchor="middle">الأسبوع ٤</text>
-  <text x="370" y="225" fill="#1a1c1b" font-size="10" font-family="Tajawal, sans-serif" text-anchor="middle">الأسبوع ٥</text>
+  <text x="60" y="225" fill="#1a1c1b" font-size="10" font-family="Manrope, sans-serif" text-anchor="middle">Week 1</text>
+  <text x="137" y="225" fill="#1a1c1b" font-size="10" font-family="Manrope, sans-serif" text-anchor="middle">Week 2</text>
+  <text x="215" y="225" fill="#1a1c1b" font-size="10" font-family="Manrope, sans-serif" text-anchor="middle">Week 3</text>
+  <text x="292" y="225" fill="#1a1c1b" font-size="10" font-family="Manrope, sans-serif" text-anchor="middle">Week 4</text>
+  <text x="370" y="225" fill="#1a1c1b" font-size="10" font-family="Manrope, sans-serif" text-anchor="middle">Week 5</text>
   
   <!-- Value tooltips -->
   <rect x="50" y="95" width="40" height="18" rx="3" fill="#001e40"/>
-  <text x="70" y="107" fill="white" font-size="9" font-family="Tajawal, sans-serif" text-anchor="middle">+١.٢M</text>
+  <text x="70" y="107" fill="white" font-size="9" font-family="Manrope, sans-serif" text-anchor="middle">+1.2M</text>
   
   <rect x="272" y="85" width="40" height="18" rx="3" fill="#775a19"/>
-  <text x="292" y="97" fill="white" font-size="9" font-family="Tajawal, sans-serif" text-anchor="middle">+١.٨M</text>
+  <text x="292" y="97" fill="white" font-size="9" font-family="Manrope, sans-serif" text-anchor="middle">+1.8M</text>
 </svg>
